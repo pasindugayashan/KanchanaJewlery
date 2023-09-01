@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background: #1f242d;
+    color:#fff;
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: #1f242d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a{
+    font-size: 1.7rem;
+    color: #fff;
+    margin-left: 4rem;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #0ef;
+}
+
+#menu-icon{
+    font-size: 3.6rem;
+    color: #fff;
+    display: none;  
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img img{
+    width: 40vw;
+}
+
+.home-content h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.home-content ul{
+    font-size: 1.4rem;
+    margin-left: 20px;
+}
+
+.home-content h3:nth-of-type(2){
+    margin-bottom: 2rem;
+
+}
+
+span{
+    color: #0ef;
+}
+
+.home-content h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.home-content p{
+    font-size: 1.6rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: #0ef;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem #0ef;
+    font-size: 1.6rem;
+    color: #323946;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    box-shadow: none;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: #323946;
+}
+
+.about-img img{
+    width: 30vw;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.services h2{
+    margin-bottom: 5rem;
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .services-box{
+    flex: 1 1 30rem;
+    background: #323946;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid #1f242d;
+    transition: .5s ease;
+}
+
+.services-container .services-box:hover{
+    border-color: #0ef;
+    transform: scale(1.02);
+}
+
+.services-box h3{
+    font-size: 2.6rem;
+}
+
+.services-box p{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+.galary{
+    background: #323946;
+}
+
+.galary h2{
+    margin-bottom: 4rem;
+}
+
+.galary-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.galary-container .galary-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem #1f242d;
+    overflow: hidden;
+    display: flex;
+}
+
+.galary-box img{
+    width: 100%;
+    transition: .5s ease;
+}
+
+.galary-box:hover img{
+    transform: scale(1.1);
+}
+
+.contact{
+    background: #323946;
+}
+.contact h2{
+    margin-bottom: 3rem;
+}
+
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: #323946;
+    background: #fff;
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.contact form .input-box input{
+    width: 49%;
+}
+
+.contact form textarea{
+    resize: none;
+}
+
+.contact form .btn{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.pricing .table-conent{
+    margin-right: 10px;
+    margin-top: 100px;
+    font-size: 2rem;
+    margin-bottom: 100px;
+}
+
+.pricing .table-conent h2{
+    margin-left: 50px;
+}
+
+.pricing th{
+	padding: 15px;
+	background-color: rgba(235, 18, 18, 0.2);
+	color: #fff;
+}
+.pricing td {
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: #fff;
+}
+
+.pricing th {
+	text-align: left;
+}
+
+.pricing thead {
+	th {
+		background-color: #55608f;
+	}
+}
+
+.pricing .input-box{
+    margin-top: 50px;
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.pricing .input-box input,
+.pricing .input-box select{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: #fff;
+    background: #323946;
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+}
+
+.footer-text p{
+    font-size: 1.5rem;
+}

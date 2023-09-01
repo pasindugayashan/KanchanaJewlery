@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanchana jewellery - Maho</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a href="#" class="logo">Kanchana jewellery</a>
+
+      <nav class="navbar">
+        <a href="#home" >Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#galary">Designs</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, Welcome to </h3>
+        <h1>Gold Store</h1>
+        <h3>We are <span>Kanchana jewellery</span></h3>
+        <ul>
+          <li>Wonderful Designs.</li>
+          <li>Good pricings.</li>  
+          <li>Honest Services.</li> 
+          <li>Best Golds.</li> 
+        </ul>
+      </div>
+
+      <div class="home-img">
+        <img src="images/2.png" alt="">
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/1.png" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Us</span></h2>
+ 
+        <p>Gold jewelry is a popular choice for its natural beauty and radiance. It is made by mixing pure gold with other metal elements while in the molten state to create alloys with different properties such as strength and various colors1. The most common type of gold alloy is yellow in color and contains silver and zinc2. The resulting material is more durable for long-lasting jewelry that is easy to care for1. Gold filled jewelry consists of a thick layer of gold over a base metal like jeweler’s Brass, and the gold must represent at least 5% of the item’s total weight by law13. </p>
+        <a href="#services" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- services section -->
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <h3>Selling</h3>
+          <p>We are selling all kind of gold jewelleries for good prices</p>
+          <a href="#galary" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <h3>Manufacturing</h3>
+          <p>We are Manufacturing any kind of gold jewellery Desings for good prices</p>
+          <a href="#galary" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <h3>Repairing</h3>
+          <p>We are Repairing any kind of gold jewelleries for good prices</p>
+          <a href="#galary" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- galary section -->
+    <section class="galary" id="galary">
+      <h2 class="heading">Sample <span>Designs</span></h2>
+
+      <div class="galary-container">
+        <div class="galary-box">
+          <img src="images/11.jpg" alt="">
+        </div>
+
+        <div class="galary-box">
+          <img src="images/12.jpg" alt="">
+        </div>
+
+        <div class="galary-box">
+          <img src="images/13.jpg" alt="">
+        </div>
+
+        <div class="galary-box">
+          <img src="images/14.jpg" alt="">
+        </div>
+
+        <div class="galary-box">
+          <img src="images/15.jpg" alt="">
+        </div>
+
+        <div class="galary-box">
+          <img src="images/16.jpg" alt="">
+        </div>
+
+        <div class="galary-box">
+          <img src="images/17.jpg" alt="">
+        </div>
+
+        <div class="galary-box">
+          <img src="images/18.jpg" alt="">
+        </div>
+
+        <div class="galary-box">
+          <img src="images/19.jpg" alt="">
+        </div>
+      
+      </div>
+    </section>
+
+    <!-- pricing section -->
+    <section class="pricing" id="pricing">
+      <h2 class="heading">Good <span>Pricing</span></h2>
+
+      <div class="input-box">
+        <h2>Gold Pricing Per Pown</h2>
+        <br>
+        <table>
+          <thead>
+            <tr>
+              <th>Karat gold</th>
+              <th>Price per 8 Gream (1 Poum)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>18 K</td>
+              <td>145,190.00 LKR</td>
+            </tr>
+            <tr>
+              <td>21 K</td>
+              <td>150,650.00 LKR</td>
+            </tr>
+            <tr>
+              <td>22 K</td>
+              <td>157,850.00 LKR</td>
+            </tr>
+            <tr>
+              <td>24 K</td>
+              <td>172,150.00 LKR</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+        <div class="input-box">
+          <h2>Gold Pricing Calculator</h2>
+          <br>
+          <select aria-placeholder="Select Karat " name="Gold-Karat" id="Gold-Karat">
+            <option value="145190">18K</option>
+            <option value="150650">21K</option>
+            <option value="157850">22K</option>
+            <option value="172150">24K</option>
+          </select>
+          <input type="text" id="n1" placeholder="Enter Amount of Gream">
+          <button class="btn" onclick="calc();">Calculate Price</button>
+        <input  type="text" id="result"/>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Us</span></h2>
+
+      <form action="#contact">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number">
+          <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Kanchanaj | All Rights Reserved</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"></a>
+      </div>
+    </footer>
+
+    <!-- js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
